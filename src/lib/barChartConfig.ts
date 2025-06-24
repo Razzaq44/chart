@@ -50,9 +50,6 @@ export const barChartOptions: ChartOptions<'bar'> = {
           day: 'DD MMM',
         },
       },
-      ticks: {
-        maxTicksLimit: 7,
-      },
       title: {
         display: true,
         text: 'Date',

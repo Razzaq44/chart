@@ -28,7 +28,13 @@ ChartJS.register(
 </script>
 
 <template>
-  <main>
-    <Line id="my-chart-id" :options="options" :data="chartData as ChartData<'line'>" />
+  <main class="flex gap-8">
+    <div class="flex justify-between w-full"></div>
+    <Line
+      id="my-chart-id"
+      class="flex-1"
+      :options="options"
+      :data="chartData as ChartData<'line'>"
+    />
   </main>
 </template>
